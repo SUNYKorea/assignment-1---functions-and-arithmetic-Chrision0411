@@ -8,10 +8,19 @@
 # TODO: Complete the implementation of fahrenheit2celsius () and what_to_wear(). 
 
 def fahrenheit2celsius(fahrenheit): 
-   a = 1
+   F = fahrenheit
+   C = (5/9)*(F - 32)
+   return C
 
 def what_to_wear(celsius):
-   ...
+    C = celsius
+    if (C < -10):
+        my_test = "puffy jacket"
+        print(my_test)
+    elif (-10<C<0):
+       print("Scarf")
+    elif (0<C<10) :
+       print("Sweater")     
 
 # ---------------------------- Exercise II --------------------------------------
 # ----------------- Area and perimeter of a triangle  ---------------------------
@@ -19,7 +28,8 @@ def what_to_wear(celsius):
 # compute_triangle_perimeter from scratch  
 
 def shoelace_triangle_area(x1, y1, x2, y2, x3, y3):
-    ...
+    A = abs(((x1 * y2)+(x2 * y3)+(x3 * y1) - (x1 * y3)+(x2 * y1) + (x3 * y2))/2)
+    return A
 
 def euclidean_distance(x1, y1, x2, y2):
     ...
@@ -50,6 +60,7 @@ def polygon_area(number_sides, length_side):
 # Exercise 1 test
 fahrenheit = 40
 what_to_wear(fahrenheit2celsius(fahrenheit))
+
 
 # Exercise 2 test
 x1, x2, x3, y1, y2, y3 = -4, -5, 3, -4, 5, -3 # declaration of the vertices of the triangle
