@@ -1,6 +1,8 @@
 # Name:
 # SBUID: 
-
+##################### SCORE ######################
+####### Score:  2/10
+#################################################
 # Remove the ellipses (...) when writing your solutions.
 
 # ---------------------------- Exercise I ---------------------------------------
@@ -27,7 +29,7 @@ def what_to_wear(celsius):
 # TODO: Fill the functions shoelace_triangle_area, euclidean_distance and
 # compute_triangle_perimeter from scratch  
 
-def shoelace_triangle_area(x1, y1, x2, y2, x3, y3):
+def shoelace_triangle_area(x1, y1, x2, y2, x3, y3): # didnt attempt
     A = abs(((x1 * y2)+(x2 * y3)+(x3 * y1) - (x1 * y3)+(x2 * y1) + (x3 * y2))/2)
     return A
 
@@ -43,7 +45,7 @@ def compute_triangle_perimeter(x1, y1, x2, y2, x3, y3):
 # TODO: Fill the functions deg2rad, apothem  and polygon_area 
 
 
-def deg2rad(deg):
+def deg2rad(deg):  # didnt attempt
     ...
 
 def apothem(number_sides, length_side):
