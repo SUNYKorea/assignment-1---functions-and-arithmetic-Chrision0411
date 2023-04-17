@@ -1,7 +1,7 @@
-# Name:
+# Name:Yejun kim
 # SBUID: 
 ##################### SCORE ######################
-####### Score:  2/10
+####### Score:  3/10
 #################################################
 # Remove the ellipses (...) when writing your solutions.
 
